@@ -8,7 +8,7 @@ const links = [
   "https://www.emojitracker.com/",
   "https://paveldogreat.github.io/WebGL-Fluid-Simulation/",
   "https://more.playables.net/",
-  "https://www.culinaryschools.org/kids-games/pancake-pileup/",
+
   "https://patatap.com/",
   "https://anythingtranslate.com/translators/posh-english-translator/",
   "https://anythingtranslate.com/translators/jealous-language-translator/",
@@ -16,10 +16,11 @@ const links = [
   "https://spinthewheel.app/good-or-evil-2xlI",
   "https://theuselessweb.com/",
   "http://www.staggeringbeauty.com/",
+  "https://www.lennyfaceguru.com/",
 ];
 
 document.getElementById("boredBtn").addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * links.length);
   const randomUrl = links[randomIndex];
-  window.location.href = randomUrl;
+  window.open(randomUrl, "_blank");
 });

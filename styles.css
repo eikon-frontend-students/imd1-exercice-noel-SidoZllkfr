@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 60px;
+  background-color: #f8f8f8;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#boredBtn {
+  font-size: 24px;
+  padding: 20px 40px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+#boredBtn:hover {
+  background-color: darkred;
+}
